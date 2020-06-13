@@ -1,0 +1,24 @@
+/*switch case in java*/
+import java.util.Scanner;
+public class SwitchAlpha{
+public static void main(String[] args){
+char ch;
+System.out.println("pick one:a.a\tb.b\tc.o\td.u\te.f");
+Scanner s = new Scanner(System.in);
+ch=s.next().charAt(0);
+switch(ch)
+{
+case'a': System.out.println("vowel");
+            break;
+case'b': System.out.println("consonant");
+            break;
+ case'c': System.out.println("vowel");
+            break;
+case'd': System.out.println("vowel");
+            break;
+case'e': System.out.println("consonant");
+            break;
+default:System.out.println("not from the list");
+}
+}
+}           
